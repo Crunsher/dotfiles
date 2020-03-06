@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/jflach/.oh-my-zsh
+export ZSH=/home/dflach/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -93,7 +93,7 @@ unsetopt beep
 bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/jflach/.zshrc'
+zstyle :compinstall filename '/home/dflach/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -108,16 +108,16 @@ autoload bashcompinit
 bashcompinit
 source /etc/bash_completion.d/*
 
-eval `dircolors /home/jflach/.dir_colors/dircolors`
+eval `dircolors /home/dflach/.dir_colors/dircolors`
 
 bindkey '^R' history-incremental-search-backward
 
 #This should not be required but shit's buggy af idk
-source /home/jflach/.oh-my-zsh/lib/key-bindings.zsh
-source /home/jflach/.oh-my-zsh/lib/clipboard.zsh
+source /home/dflach/.oh-my-zsh/lib/key-bindings.zsh
+source /home/dflach/.oh-my-zsh/lib/clipboard.zsh
 
 #Stuff like rdesktop with the password in the command
-source /home/jflach/.config/.alias
+source /home/dflach/.config/.alias
 
 #These exist because I type without thinking or looking
 alias vi=vim
