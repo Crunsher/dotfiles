@@ -1,8 +1,7 @@
 [user]
-	name = Jean Flach
-	email = jean.flach@icinga.com
+    name = Diana Flach
 [push]
-	default = simple
+    default = simple
 
 [alias]
     co = checkout
@@ -16,4 +15,4 @@
     amend = commit -a --amend
 
 [core]
-	editor = vim
+    editor = vim
