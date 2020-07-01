@@ -5,14 +5,12 @@
 
 [alias]
     co = checkout
-    ec = config --global -e
-    up = !git pull --rebase --prune $@ && git submodule update --init --recursive
     cob = checkout -b
     cm = commit -a
-	save = !git add -A && git commit -m 'SAVEPOINT'
-    wip = !git add -u && git commit -m "WIP" 
     undo = reset HEAD~1 --mixed
     amend = commit -a --amend
+    st = status
+    minit = !git init $1 && git symbolic-ref HEAD refs/heads/main
 
 [core]
     editor = vim
